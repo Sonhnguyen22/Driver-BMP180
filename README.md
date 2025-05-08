@@ -6,6 +6,6 @@ Chức năng driver:
 >     3 Tính và gửi giá trị áp suất (đơn vị Pa)  
 >     4 Tính và gửi đồng thời giá trị nhiệt độ và áp suất  
 Cách dùng driver:  
->     1 Đọc các giá trị Calibration AC1->MD và UT, UP  
->     tạo 1 struc như ví dụ để lưu giá trị đọc về  
->     sủ dụng hàm ioctl(fd, bmp180_IOCTL_READ_TP, &TP)
+>     1 Đọc các giá trị Calibration AC1->MD và UT, UP:  
+>         tạo 1 struc như ví dụ để lưu giá trị đọc về  
+>         sủ dụng hàm ioctl(fd, bmp180_IOCTL_READ_TP, &TP)
