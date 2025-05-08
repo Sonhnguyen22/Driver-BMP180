@@ -22,4 +22,8 @@ Cách dùng driver:
 >         tạo một mảng 2 phần từ int32_t data[2]
 >         sủ dụng hàm ioctl(fd, _IOW('b', 1, int), & oss) để ghi giá trị oss
 >         sử dụng hàm ioctl(fd, _IOR('b', 5, int), & data) để đọc data và lưu vào data (data[0]: Temp (0.1 độ), data[2]: Pres (Pa))
+>     ```c
+>     int oss = 0;
+>     ioctl(fd, _IOW('b', 1, int), &oss);
+>     ```
  
