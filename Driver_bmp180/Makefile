@@ -1,4 +1,4 @@
-obj-m += bmp180test.o
+obj-m += bmp180iocl.o
 KDIR = /lib/modules/$(shell uname -r)/build
 
 all:
