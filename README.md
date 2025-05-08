@@ -8,7 +8,7 @@ Chức năng driver:
 Cách dùng driver:  
 >     1 Đọc các giá trị Calibration AC1->MD và UT, UP:  
 >         tạo 1 struc như ví dụ để lưu giá trị đọc về  
->         sủ dụng hàm ioctl(fd, _IOW('b', 1, int), & oss) để ghi giá trị oss (0->3)  
+>         sủ dụng hàm '''ioctl(fd, _IOW('b', 1, int), & oss)''' để ghi giá trị oss (0->3)  
 >         sủ dụng hàm ioctl(fd, _IOR('b', 2, int), & your struc) để đọc data và lưu vào your struc  
 >     2 đọc giá trị Temp
 >         tạo một biến int32_t Temp
