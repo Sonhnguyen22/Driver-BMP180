@@ -12,7 +12,6 @@ Cách dùng driver:
 >         sủ dụng hàm ioctl(fd, _IOR('b', 2, int), & your struc) để đọc data và lưu vào your struc  
 >     2 đọc giá trị Temp
 >         tạo một biến int32_t Temp
->         sủ dụng hàm ioctl(fd, _IOW('b', 1, int), & oss) để ghi giá trị oss (0->3)  
 >         sủ dụng hàm ioctl(fd, _IOR('b', 3, int), & Temp) để đọc data và lưu vào Temp
 >     3 đọc giá trị Pres
 >         Tạo một biến int32_t Press  
