@@ -1,5 +1,12 @@
 # BT Driver Raspberry Pi 5  
 Driver BMP180  
+This is Driver for Bosch BMP180 barometric pressure & temperature sensor
+- Supply voltage:         1.8v - 3.6v  
+- Range:                  30,000Pa..110,000Pa at 0°C..+65°C
+- Typ. resolution:        1Pa    / 0.1°C
+- Typ. accuracy:          ±100Pa / ±1.0°C
+- Typ. relative accuracy: ±12Pa  / xx°C
+
 Chức năng driver:  
 >     1 Đọc và gửi các giá trị Calibration  
 >     2 Tính và gửi giá trị nhiệt độ (đơn vị 0.1 độ vd: T = 150 ==> 15 độ C)  
