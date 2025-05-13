@@ -1,4 +1,4 @@
-# BT Driver Raspberry Pi 5  
+# Driver Raspberry Pi 5  
 Driver BMP180  
 This is Driver for Bosch BMP180 barometric pressure & temperature sensor
 - Supply voltage:         1.8v - 3.6v  
